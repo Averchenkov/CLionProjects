@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab1/List.h
+cmath
+-
+Node.h
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab1/Node.h
+iostream
+-
+
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab1/Node.h
+
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab1/main.cpp
+iostream
+-
+List.h
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab1/List.h
+cmath
+-
+
