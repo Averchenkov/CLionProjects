@@ -12,17 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c74bb3f-7cb7-4a61-af90-9ce7e1e032e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/List.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/Node.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/Graph.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/Tree.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="150" column="40" lean-forward="true" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+              <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
               <folding>
                 <element signature="e#84#100#0" expanded="true" />
                 <element signature="e#170#182#0" expanded="true" />
@@ -170,11 +160,12 @@
       <workItem from="1555142405604" duration="9532000" />
       <workItem from="1555522879734" duration="3463000" />
       <workItem from="1555593599565" duration="963000" />
+      <workItem from="1555699913368" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31012000" />
+    <option name="totallyTimeSpent" value="31258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,7 +255,7 @@
     <entry file="file://$PROJECT_DIR$/Tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="150" column="40" lean-forward="true" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+          <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
           <folding>
             <element signature="e#84#100#0" expanded="true" />
             <element signature="e#170#182#0" expanded="true" />
