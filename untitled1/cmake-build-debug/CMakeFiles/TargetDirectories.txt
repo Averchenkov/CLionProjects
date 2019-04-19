@@ -1,0 +1,3 @@
+C:/Users/Aver/Documents/GitHub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir
+C:/Users/Aver/Documents/GitHub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Aver/Documents/GitHub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

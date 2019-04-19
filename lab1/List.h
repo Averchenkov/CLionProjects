@@ -19,7 +19,6 @@ private:
 public:
     List();
     ~List();
-
     void push_back(T data);
     int getSize() const;
     T& operator[](const int index);
@@ -32,16 +31,11 @@ public:
     Node<T> is(const int index);
     int have(T data);
     int countHave(T data);
-
     bool isSymmetric();
     bool isOdered();
     int numberUniqueValues();
     void deleteUniqueValues();
-
 };
-
-
-
 
 template<typename T>
 void List<T>::push_back(T data) {
@@ -57,7 +51,6 @@ void List<T>::push_back(T data) {
     }
     Size++;
 }
-
 
 template<typename T>
 List<T>::List(){
@@ -148,22 +141,30 @@ void List<T>::pop_back() {
 }
 
 template<typename T>
-bool List<T>::isSymmetric() {
-    Node<T> *right = this->head;
-    for (int i = 0; i < ceil((float)Size/2); ++i) {
-        right = right->pNext;
+int List<T>::countHave(T data) {
+    Node<T> *current = this->head;
+    int counter = 0;
+    while(current != nullptr){
+        if(current->data == data){
+            counter++;
+        }
+        current = current->pNext;
     }
+    return counter;
+}
 
-    int n = Size/2 - 1;
-    while (n && (right->pNext != nullptr) && (is(n).data == right->data)){
-        n--;
-        right = right->pNext;
+template<typename T>
+int List<T>::have(T data) {
+    Node<T> *current = this->head;
+    int counter = 0;
+    while((current != nullptr) && (current->data != data)){
+        current = current->pNext;
+        counter++;
     }
-
-    if (n){
-        return false;
+    if(current == nullptr){
+        return 0;
     } else{
-        return true;
+        return counter + 1;
     }
 }
 
@@ -177,6 +178,24 @@ Node<T> List<T>::is(const int index) {
         }
         current = current->pNext;
         counter++;
+    }
+}
+
+template<typename T>
+bool List<T>::isSymmetric() {
+    Node<T> *right = this->head;
+    for (int i = 0; i < ceil((float)Size/2); ++i) {
+        right = right->pNext;
+    }
+    int n = Size/2 - 1;
+    while (n && (right->pNext != nullptr) && (is(n).data == right->data)){
+        n--;
+        right = right->pNext;
+    }
+    if (n){
+        return false;
+    } else{
+        return true;
     }
 }
 
@@ -218,21 +237,6 @@ int List<T>::numberUniqueValues() {
 }
 
 template<typename T>
-int List<T>::have(T data) {
-    Node<T> *current = this->head;
-    int counter = 0;
-    while((current != nullptr) && (current->data != data)){
-        current = current->pNext;
-        counter++;
-    }
-    if(current == nullptr){
-        return 0;
-    } else{
-        return counter + 1;
-    }
-}
-
-template<typename T>
 void List<T>::deleteUniqueValues() {
     Node<T> *current = this->head;
     Node<T> *temporary;
@@ -248,19 +252,6 @@ void List<T>::deleteUniqueValues() {
         }
         counter++;
     }
-}
-
-template<typename T>
-int List<T>::countHave(T data) {
-    Node<T> *current = this->head;
-    int counter = 0;
-    while(current != nullptr){
-        if(current->data == data){
-            counter++;
-        }
-        current = current->pNext;
-    }
-    return counter;
 }
 
 #endif //LAB1_LIST_H

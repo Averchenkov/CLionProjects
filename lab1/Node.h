@@ -5,7 +5,6 @@
 #ifndef LAB1_NODE_H
 #define LAB1_NODE_H
 
-
 template <typename T>
 class Node{
 public:
@@ -16,6 +15,5 @@ public:
         this-> pNext = pNext;
     }
 };
-
 
 #endif //LAB1_NODE_H
