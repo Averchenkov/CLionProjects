@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab3/Graph.cpp
+algorithm
+-
+iomanip
+-
+Graph.h
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab3/Graph.h
+
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab3/Graph.h
+cmath
+-
+iostream
+-
+vector
+-
+
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab3/main.cpp
+iostream
+-
+iomanip
+-
+Graph.h
+C:/Users/Aver/Documents/GitHub/CLionProjects/lab3/Graph.h
+
